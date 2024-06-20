@@ -1,0 +1,303 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background{
+    background-image: url(images/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    position: relative;
+    
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-link{
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .5);
+}
+.login{
+    position: relative;
+    padding-right: 30px;
+}
+.login-span {
+    position: absolute;
+    top: -55%;
+    left: 20%;
+}
+/* end nav */
+/* start header */
+.deliver {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.deliver-info{
+    width: 50%;
+    margin-top: 12%;
+    padding-left: 50px;
+}
+.deliver-info h1{
+    font-family: "Varela_Round";
+    font-weight: 600;
+    font-size: 300%;
+}
+.deliver-info span{
+    color: #96318D;
+}
+.deliver-info p{
+    font-weight: 100;
+    font-size: 150%;
+    width: 90%;
+    margin-top: 3%; 
+}
+.first{
+    position: absolute;
+    left: 45%;
+    top: -30%;
+}
+.secound{
+    position: absolute;
+    left: 55%;
+    top: -20%;
+}
+.third {
+    position: absolute; 
+    left: 53%;
+    top: 120%;
+    filter: opacity(99%);
+}
+.fourth{
+    position: absolute; 
+    left: -16%;
+    top: 170%;
+    opacity: 1.5;
+}
+/* end header */
+/* start sec1 */
+.sec1 {
+   margin: 50px;
+   
+  
+   
+}
+.sec1 p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.662);
+}
+.line img{
+    position: absolute;
+    width: 80%;
+    left: 15%;
+}
+
+.fast{
+    position: absolute;
+    left: -1%;
+    top: 175%;
+    width: 400px;
+    text-align: center;
+
+}
+.Tracking{
+    position: absolute;
+    left: 37%;
+    top: 204%;
+    width: 430px;
+    text-align: center;
+
+
+}
+.discount{
+    position: absolute;
+    left: 65%;
+    top: 251%;
+    width: 440px;
+    text-align: center;
+
+
+}
+.KADZUKA{
+    position: absolute;
+    top: 250%;
+}
+.choose{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    color: white;
+}
+.choose h4{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.choose h1{
+    font-size: 40px;
+}
+/* end sec1 */
+/* start sec2 */
+
+.round1{
+    position: absolute;
+    top: 330%;
+    left: 10%;
+    
+}
+.round2{
+    position: absolute;
+    top: 310%;
+    left: 35%;
+    width: 450px;
+    
+}
+.round3{
+    position: absolute;
+    top: 330%;
+    left: 75%;
+    
+}
+.round2 h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.559);
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.round2 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.559);
+    text-align: center;
+    padding-right: 50px;
+}
+/* end sec2 */
+/* start footer */
+footer {
+    position: absolute;
+    top: 380%;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  footer .footer-bg img {
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  
+  footer .container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    
+    
+  }
+  
+  
+  footer .container .footer-links .mobile-stores {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .container .footer-links .mobile-stores .store {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  footer .container .footer-links .mobile-stores .store img {
+    width: 15%;
+  }
+  footer .container .footer-links .mobile-stores .store .store-desc {
+    width: 100%;
+    padding-left: 8px;
+  }
+  footer .container .footer-links .mobile-stores .store .store-desc span {
+    font-size: 12px;
+    color: #333;
+  }
+  footer .container .footer-links .mobile-stores .store .store-desc p {
+    font-size: 11px;
+    color: #7a3d8a;
+  }
+  footer .container .footer-links .social-media {
+    margin: 25px auto;
+  }
+  footer .container .footer-links .social-media img {
+    cursor: pointer;
+    padding-right: 15px;
+    width: 23px;
+    height: 23px;
+  }
+  footer .container .footer-links .menu-bar {
+    padding-bottom: 50px;
+    
+    
+  }
+  footer .container .footer-links .menu-bar ul {
+    display: flex;
+    gap: 90px;
+    text-decoration: none;
+    
+  }
+  
+
+  footer .container .footer-links .menu-bar ul li a {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    text-decoration: none;
+    
+  }
+  footer .container .footer-img img {
+    position: absolute;
+    top: -155%;
+    left: 145%;
+    
+  }
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
